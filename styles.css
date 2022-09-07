@@ -1,5 +1,8 @@
 /* .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } */
+:root{
+    --grey:hsl(0, 0%, 41%);
+}
 body{
     margin:0;
     font-family: Epilogue ,sans-serif;
@@ -26,9 +29,9 @@ header::after{
   padding-left: 6px;
 }
 nav{
-    float:right;
+    float:left;
 }
-nav ul{
+nav ul,.nav2{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -43,8 +46,19 @@ nav li{
 }
 nav li a {
     text-decoration: none;
-    color: hsl(0, 0%, 41%);
+    color: var(--grey);
 }
-#about{
-    
+.nav2{
+    float:inline-end;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding-top: 7px; 
+}
+.nav2 a{
+    text-decoration: none;
+    color:var(--grey);
+}
+li svg{
+    padding-left: 5px;
+    margin-bottom: 2px;
 }
