@@ -70,11 +70,15 @@ li svg{
 }
 .register{
     display: inline-block;
-    border: 1px solid black;
-    border-radius: 12px;
+    border: 1.5px solid var(--grey);
+    border-radius: 15px;
     padding: 10px 20px;
     margin-top: -10px;
 }
 .login{
     padding-right: 10px;
+}
+.register:hover{
+    background-color: var(--grey);
+    text-transform: capitalize;
 }
