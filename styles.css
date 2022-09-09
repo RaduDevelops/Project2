@@ -83,6 +83,7 @@ li svg{
     padding-right: 10px;
 }
 .feature-sub,.company-sub{
+    display: none;
     position: absolute;
     top:61px;
     background-color: white;
@@ -109,4 +110,19 @@ a:hover{
 .feature-sub svg{
     margin-bottom:-1px;
     margin-right: 8px;
+}
+.attribution{
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%,-50%);  
+    font-size: 15px;
+}
+.attribution a{
+    list-style: none;
+    text-decoration: none;
+    color:var(--grey);
+}
+.feature-sub.active{
+ display: block;
 }
