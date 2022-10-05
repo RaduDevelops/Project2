@@ -105,6 +105,35 @@ nav{
     margin-top:-5px;
 
 }
-ul >li{
+ul > li{
     cursor: pointer;
+}
+#phone > svg{
+    display: none;
+}
+
+@media only screen and (max-width:770px) {
+    body{
+        background-color: darkcyan;
+    }
+    #part1 > ul{
+        display: none;
+    }
+    #part2{
+        display: none;
+    }
+    #phone > svg{
+        cursor: pointer;
+    }
+    #phone > svg:nth-child(1){
+        padding: 15px;
+        display: none;  
+    }
+    #phone > svg:nth-child(2){
+        padding: 15px;
+        display: inline;
+    }
+
+
+    
 }
